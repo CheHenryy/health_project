@@ -1,8 +1,9 @@
+# Objectives 
 The goal of this project is to analyze health data of 800 participants and make inference about their health. 
 # Directives 
 Clone the regpository and change the path for the dataset and click run all in report.ipynb
 
-#Content
+# Content
 The notebook report.ipynb consist of code for particular task. 
 The notebook begins with code for: 
 -data checking, validation and cleaning 
