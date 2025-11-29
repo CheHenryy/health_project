@@ -1,7 +1,7 @@
 # Objectives 
 The goal of this project is to analyze health data of 800 participants and make inference about their health. 
 # Directives 
-Clone the regpository and change the path for the dataset and click run all in report.ipynb
+Clone the repository and change the path for the dataset and click run all in report.ipynb
 
 # Content
 The notebook report.ipynb consist of code for particular task. 
@@ -13,3 +13,5 @@ The notebook begins with code for:
 - This is followed by calculating the confidence interval of the mean systolic blood pressure
 - and lastly by performing statistical inference to investifate if there is a difference in mean systolic blood pressure between smokers and nonsmokers
   and calculated the CI using bootstrap approach.
+- Linear regression. Simple and multivariable linear regression using two different libraries
+- Verify the assumptions for linear regressions.
