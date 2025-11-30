@@ -1,17 +1,33 @@
 # Objectives 
 The goal of this project is to analyze health data of 800 participants and make inference about their health. 
-# Directives 
-Clone the repository and change the path for the dataset and click run all in report.ipynb
+# Procedure 
+I start by cleaning the data (NB: data was relatively in good shape already),checking for duplicates and providing basic summary statistics of the important variables. I proceeded to producing summary plots. Following that,  I calculated the confidence interval of the mean systolic blood pressure.
 
-# Content
-The notebook report.ipynb consist of code for particular task. 
-The notebook begins with code for: 
--data checking, validation and cleaning 
-- summary statistics for continous variables
-- summary statistics for categorical variables
-- summary plots to visualize variables in the data
-- This is followed by calculating the confidence interval of the mean systolic blood pressure
-- and lastly by performing statistical inference to investifate if there is a difference in mean systolic blood pressure between smokers and nonsmokers
+## Inferential statistics
+I performed statistical inference to investifate if there is a difference in mean systolic blood pressure between smokers and nonsmokers
   and calculated the CI using bootstrap approach.
-- Linear regression. Simple and multivariable linear regression using two different libraries
-- Verify the assumptions for linear regressions.
+In the next step, 
+I fitted a Simple and multivariable linear regression using two different libraries to predict systolic blood pressure using the a set of variables from the dataset
+Lastly, i verified the assumptions of linear regression and plottted the output. 
+
+
+# files 
+## data_class.py 
+This holds a class that produces summary statistics for both the numerical and categorical variables in the dataset. 
+
+## Viz.py
+This holds functions for producing differnt visualisations 
+
+## report.ipynb
+This notebook contains all the output and description of the results. This is the main file to look if you are interested in the consolidated report of the codes written in the other files mentioned above. 
+
+
+# Directives 
+Clone the repository and change the path for the dataset accordingly
+clone: git clone https://github.com/CheHenryy/health_project.git
+
+install required packages: pip install -r requirements.txt
+
+click run all 
+
+
